@@ -1,0 +1,236 @@
+/*
+Sombra em volta da div acima da imagem de fundo do banner #1f26875e
+Sombra das fotos com leve transparencia dir e inf #0000005c (ou e)
+Efeito de transparencia na div acima da imagem de fundo #ffffffc4
+Nos servicos usar italico e peso 700
+
+*/
+
+
+* {
+    font-family: sans-serif;
+    margin: 0px; 
+    padding: 0px;  
+    text-decoration: none;
+}
+.banner, 
+.servicos, 
+.redes-sociais, 
+.onde-estamos, 
+.marcas{
+    padding:  120px 80px;
+}
+h3{
+    font-size: 36px;
+    text-align: center;
+    margin: 0px;
+    color: #3c184e;
+    margin-bottom: 45px;
+}
+/*Header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header img{
+    width:100px;
+}
+nav ul{
+    margin: 30px;
+}
+nav ul li{
+    display: inline;
+    margin: 40px;
+}
+
+/*Seção banner*/
+
+.banner{
+    height:auto;
+    background-image: url(./img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{    
+    max-width: 250px;
+    color: #3c184e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+.logo-nome{
+    font-size: 35px;
+    margin: 0px 0px 5px 0px;
+}
+.logo-nome img{
+    width: 30px;
+    margin-right: 5px;
+}
+.logo-texto{
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+}
+    
+.logo img{
+    width: 30px;    
+}
+.centro-banner{
+    background-color:#ffffffc4;
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    box-shadow: 0px 8px 32px #1f26875e;
+}
+.centro-banner h1{
+    color:#3c184e;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.botao-banner{
+    background-color: #3c184e;
+    width:200px;
+    font-size: 20px; 
+    text-align: center;
+    margin: 0px auto 0px auto;
+    border-radius: 10px; 
+    padding: 10px 25px;   
+}
+.centro-banner a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    margin: 5px 10px;
+       
+}
+.centro-banner img{
+    width: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+/*Seção Serviços*/
+
+.servicos{
+    margin-top:0px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicos h3{ 
+    color: #3c184e;
+    margin-bottom: 45px;
+}
+.lista-servicos{    
+    max-width: 800px;     
+    margin: 0px auto 50px auto;
+    color: #3c184e;
+}
+.servicos ul{
+    
+    list-style-type:square;
+}
+.servicos ul li{
+    margin:0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.lista-servicos span{
+    font-weight: 700;
+    font-style: italic;
+}
+.galeria-servicos{
+    max-width: 800ox;    
+    margin: 0px auto 0px auto;
+}
+.galeria-servicos img{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+/*Seções redes sociais*/
+
+.redes-sociais{
+    background-color: #3c184e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.redes-sociais p{
+    max-width: 800px;
+    margin: 0px auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.redes-sociais span{
+    font-weight: 700px;
+    font-style: italic;
+}
+.redes-sociais-icones{
+    display: flex;
+    margin: 30px 10px 0px 10px;
+  
+}
+.redes-sociais-icones img{
+    width: 50px;
+    height: 50px;
+}
+.redes-sociais-icones a{
+    margin:0px 10px;
+}
+
+
+/*Seção marcas*/
+
+.marcas{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.marcas-logos1, .marcas-logos2, .marcas-logos3{
+    max-width: 800px;   
+    margin: 0px auto; 
+}
+.marcas img{
+    width: 148px;
+    height: 148px;
+    margin: 0px 15px;
+}
+/*Seção onde estamos*/
+.onde-estamos{    
+    display: flex;       
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.onde-estamos p{
+    color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 45px;
+}
+
+/*Rodapé*/
+.rodape{
+    padding: 10px 0px;
+    background-color: #3c184e;
+}
+.rodape p{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
